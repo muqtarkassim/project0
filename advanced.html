@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+       <link rel="stylesheet"href="style.css">
+       <link rel="stylesheet"href="advancedsearch.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+           
+    </head>
+    <body> 
+      <div class="navi">
+        <a class="nas"href="index.html"><strong> back to google</strong></a></div>
+        <div class="container">
+            <h4>Advanced Search</h4>
+            <hr>
+            <form action="https://www.google.com/search">
+            <div class="grid">
+                <div class="grid-item main-header">
+                        <h5>Find pages with..</h5>
+                </div>
+                <div class="grid-item main-header-2">
+                    <h5 class="second-label">To do this in the search box</h5>
+                </div>
+                <!-- 1 -->
+                <div class="grid-item">
+                    <label for="">
+                        all these words:
+                    </label>
+                </div>
+                <div class="grid-item">
+                    <input type="text" name="as_q" class="inp">
+                </div>
+                <div class="grid-item second-label">
+                    Type the important words: tri-colour rat terrier
+                </div>
+                <!-- 2 -->
+                <div class="grid-item">
+                    <label for="">
+                        this exact word or phrase:
+                    </label>
+                </div>
+                <div class="grid-item">
+                    <input type="text" class="inp" name="as_epq">
+                </div>
+                <div class="grid-item second-label">
+                    Put exact words in quotes: "rat terrier"
+                </div>
+                <!-- 3 -->
+                <div class="grid-item">
+                    <label for="">any of these words:</label>
+                </div>
+                <div class="grid-item">
+                    <input type="text" class="inp" name="as_oq">
+                </div>
+                <div class="grid-item second-label">
+                    Type OR between all the words you want: miniature OR standard
+                </div>
+                <!-- 4 -->
+                <div class="grid-item">
+                    <label for="">none of these words:</label>
+                </div>
+                <div class="grid-item">
+                    <input type="text" class="inp" name="as_eq">
+                </div>
+                <div class="grid-item second-label">
+                    Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                </div>
+                <!-- 5 --><div>
+                <button type="submit" class="btn btn-primary">Advanced search</button>
+            </div>
+            </form>
+        </div>
+         
+             
+        
+    </body>
+    </html>

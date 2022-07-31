@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+
+
+
+
+#image{
+   height: 90px;
+   width: 300px;
+ 
+
+    
+}
+
+.iimage{
+
+  margin-left: 400px;
+  margin-top: 70px;
+ 
+
+}
+
+    
+.submitt{
+  text-align: center;
+}
+.RNmpXc{
+  border-style: none;
+  background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.container {
+  position: relative;
+}
+
+.main {
+display: flex;
+z-index: 3;
+height: 44px;
+background: #fff;
+border: 1px solid #dfe1e5;
+box-shadow: none;
+border-radius: 24px;
+margin: 0 auto;
+width: 638px;
+width: 414;
+max-width: 584px;
+
+
+}
+.main:focus {
+  outline: none;
+}
+
+.searchicon{
+    display: inline;
+    color: aqua;
+}
+.nav{
+  justify-content: end;
+  display: flex;
+  margin-left: 990px;
+  border:none;
+}
+.nas:hover {
+  color: rgb(238, 9, 9);
+}
+  .lcm{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+ 
+    padding-left: 10px;
+  display:inline;
+    margin-left: 220px;
+  padding-top: 0%;
+  margin-top: 0%;
+    bottom: 100px;
+    white-space: nowrap;
+  }
+  .search-btn{
+    height: 40px;
+    border:none;
+    color: #646464;
+    background: #f2f2f2;
+}
+
+.search-btn:hover{
+    color:rgb(37, 37, 37);
+    border:1px solid lightgray;
+}
+
+.blue-search-icon{
+    position: relative;
+    height:25px;
+    margin-right:5px;
+    margin-top: 8px;
+}
+.btn-blue-search{
+    background-color: white;
+    height:40px;
+    width:20px;
+    border:none;
+    cursor: pointer;
+    margin-top:2px;  
+    margin-right: 10px;
+}
+.btn-blue-search:hover{
+    border-left: 2px solid lightgray;
+}
+
+
+
